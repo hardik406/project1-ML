@@ -1,7 +1,0 @@
-[ 2026-07-12 14:29:52,030 ] 26 root - INFO - Entered the data ingestion method or component
-[ 2026-07-12 14:29:52,084 ] 30 root - INFO - Read the dataset as dataframe
-[ 2026-07-12 14:29:52,094 ] 43 root - INFO - Train test split initiated
-[ 2026-07-12 14:29:52,114 ] 63 root - INFO - Data ingestion completed
-[ 2026-07-12 14:29:52,142 ] 91 root - INFO - Train and Test data loaded successfully
-[ 2026-07-12 14:29:52,142 ] 69 root - INFO - Numerical Pipeline Created
-[ 2026-07-12 14:29:52,142 ] 70 root - INFO - Categorical Pipeline Created

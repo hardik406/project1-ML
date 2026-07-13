@@ -1,6 +1,48 @@
+```gitignore
+# Virtual Environment
 venv/
+env/
+ENV/
+
+# Python Cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints/
-artifact/git rm -r --cached venv
-git reset --soft HEAD~2
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# ML Artifacts
+artifacts/
+catboost_info/
+
+# Saved Models
+*.pkl
+*.joblib
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+```
