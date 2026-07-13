@@ -1,19 +1,9 @@
-```gitignore
 # Virtual Environment
 venv/
-env/
-ENV/
 
 # Python Cache
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
+*.pyc
 
 # Logs
 logs/
@@ -21,28 +11,18 @@ logs/
 
 # ML Artifacts
 artifacts/
+
+# CatBoost
 catboost_info/
 
 # Saved Models
 *.pkl
-*.joblib
 
-# Pytest
-.pytest_cache/
+# Jupyter
+.ipynb_checkpoints/
 
-# Coverage
-.coverage
-htmlcov/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Build Files
-build/
-dist/
-*.egg-info/
+# VS Code
+.vscode/
 
 # Environment Variables
 .env
-```
