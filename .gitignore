@@ -9,14 +9,8 @@ __pycache__/
 logs/
 *.log
 
-# ML Artifacts
-artifacts/
-
 # CatBoost
 catboost_info/
-
-# Saved Models
-*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
